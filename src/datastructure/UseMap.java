@@ -1,5 +1,8 @@
 package datastructure;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class UseMap {
 
 	public static void main(String[] args) {
@@ -11,6 +14,21 @@ public class UseMap {
 		 * Use any databases[MongoDB, Oracle, MySql] to store data and retrieve data.
 		 */
 
+
+		Map<String,String> monthSeason = new HashMap<>();
+		monthSeason.put("January","Winter");
+		monthSeason.put("April","Spring");
+		monthSeason.put("July","Summer");
+		monthSeason.put("October","Fall");
+
+		System.out.println(monthSeason.get("January"));
+		System.out.println(monthSeason.get("April"));
+		System.out.println(monthSeason.get("July"));
+		System.out.println(monthSeason.get("October"));
+
+
 	}
+
+
 
 }
