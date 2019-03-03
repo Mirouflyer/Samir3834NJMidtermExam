@@ -1,5 +1,7 @@
 package math.problems;
 
+import java.util.Scanner;
+
 public class Pattern {
 
 	public static void main(String[] args) {
@@ -8,8 +10,13 @@ public class Pattern {
 		 *
 		 *
 		 */
-		
+		Scanner input = new Scanner(System.in);
+		try {
+			int number = input.nextInt();
+		}catch (Exception ex) {
+			ex.getMessage();
 
+		}
 
 	}
 }
