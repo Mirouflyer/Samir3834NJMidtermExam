@@ -1,5 +1,7 @@
 package datastructure;
 
+import databases.ConnectToSqlDB;
+
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -28,6 +30,7 @@ public class DataReader {
 
          FileReader fileReader = null;
 		 BufferedReader bufferedReader = null;
+
 
 		try {
 			fileReader = new FileReader(textFile);

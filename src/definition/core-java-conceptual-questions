@@ -62,11 +62,37 @@ What is difference between path and classpath variables?
 A.
 
 What is the difference between an Interface and Abstract class?
+A.
+*
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+A.
+*No we can't ,we need to implement the interface and extends the abstract class.
+
 what is Access Specifier?
+A.
+*Access Specifier Java Access Specifiers regulate access to classes, fields and methods in Java.
+These Specifiers determine whether a field or method in a class, can be used or invoked by another method in another
+class or sub-class
+
 What is OOP ? Define each feature of java OOP.
+A.
+*OOP stands for Object Oriented Programming.
+-Abstraction : implementation hiding.
+-Inheritance :
+-Polymorphism :
+-Encaplsulation: data hiding
+
+
 What is Java Package and which package is imported by default?
+A.
+*
+
 What is API? Name list of API that you have used so far.
+A.
+*API is Application Programming Interface that is a list of all classes that are part
+of the java development kit.
+-Scanner , BufferedReader, FileReader, LinkedList , HashMap , String ,
+
 Does java support multiple inheritance, explain why or why not?
 What is method overloading and when it happens?
 Explain exceptions in java and how to handle it.
