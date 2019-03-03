@@ -22,7 +22,7 @@ public class Numbers {
 
 	public static void main(String[] args) throws Exception {
 		
-		int [] num = new int[34000];
+		int [] num = new int[3400];
 		storeRandomNumbers(num);
 		ConnectToSqlDB connectToSqlDB = new ConnectToSqlDB();
 
@@ -50,11 +50,23 @@ public class Numbers {
 		algo.bubbleSort(num);
 		long bubbleSortExecutionTime = algo.executionTime;
 		System.out.println("Total Execution Time of " + num.length + " numbers in Bubble Sort take: " + bubbleSortExecutionTime + " milli sec");
-		connectToSqlDB.insertDataFromArrayToSqlTable(num,"bubbleSort","SortingNumbers");
+		connectToSqlDB.insertDataFromArrayToSqlTable(num,"bubble_Sort","SortingNumbers");
 		List<String> numbers2 = connectToSqlDB.readDataBase("bubble_sort","SortingNumbers");
 		printValue(numbers2);
 		randomize(num,n);
+
+		//ShellSort
+		algo.shellSort(num);
+		long shellSortExecutionTime = algo.executionTime;
+		System.out.println("Total Execution Time of " + num.length + " numbers in Shell Sort take: " + shellSortExecutionTime + " milli sec");
+		connectToSqlDB.insertDataFromArrayToSqlTable(num,"shell_Sort","SortingNumbers");
+		List<String> numbers3 = connectToSqlDB.readDataBase("shell_sort","SortingNumbers");
+		printValue(numbers3);
+		randomize(num,n);
+
+
 		//By following above, Continue for rest of the Sorting Algorithm....
+
 
 
 

@@ -79,10 +79,16 @@ public class Sort {
     
 
     public int [] mergeSort(int [] array){
+        final long startTime = System.currentTimeMillis();
         int [] list = array;
+
+
         //implement here
-        
-        
+
+        final long endTime = System.currentTimeMillis();
+        final long executionTime = endTime - startTime;
+        this.executionTime = executionTime;
+
 
         return list;
     }
@@ -117,9 +123,33 @@ public class Sort {
     }
     
     public int [] shellSort(int [] array){
+        final long startTime = System.currentTimeMillis();
         int [] list = array;
-        //implement here
-        
+        int h = 1;
+        while (h <= array.length / 3) {
+            h = 3 * h + 1; // h is equal to highest sequence of h<=length/3
+            // (1,4,13,40...)
+        }
+
+        // next part
+        while (h > 0) { // for array of length 10, h=4
+
+            // This step is similar to insertion sort below
+            for (int i = 0; i < array.length; i++) {
+
+                int temp = array[i];
+                int j;
+
+                for (j = i; j > h - 1 && array[j - h] >= temp; j = j - h) {
+                    array[j] = array[j - h];
+                }
+                array[j] = temp;
+            }
+            h = (h - 1) / 3;
+        }
+        final long endTime = System.currentTimeMillis();
+        final long executionTime = endTime - startTime;
+        this.executionTime = executionTime;
         
 
         return list;
