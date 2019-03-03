@@ -3,26 +3,64 @@ Please answer the below core-java Questions:
 What is programing language?
 A.
 
-
+*A programming language is  a set of commands, instructions, and other syntax use to create a software program.
 
 
 What jdk contains or composed of and define each components?
 A.
 
-
+*First JDK stands for Java Development Kit , it contains a suite of tools
+Java compiler : this tool is used to compile the source code from a java file to a bytecode or file.class
+JVM : it the Java Virtual Machine used to translate the byteCode and execute it ,
+the JVM is composed of different components a class loader , a code verifier and a JIT (Just in time running)
 
 
 
 What is IDE?
 A.
+*An IDE is an Integrated Development Environment that is used to write the source code of a programming language.
+
 What are the IDEs available in the market to support java?
+A.
+*Eclipse,
+*IntelliJ
+*NetBeans
+
+
 Explain the entire java life cycle.
+A.
+*It starts from the IDE where we write ou source code file.java .
+*compile this source code by using java compiler or javac the result of that is a byteCode or a file.class.
+*The byteCode is passing throw the JVM wich use a a class loader to upload it , next verify the code finally
+execute it with the JIT (Just in time) compiler.
+
+
 what is class?
+A.
+*A Class is a blueprint of an object.
+
 What is object?
+A.
+*An object is an instance of a class.
+
 What is the entry point of an application?
+A.
+*The entry point of application is the main method.
+
 Why main is static?
+A
+*main is static because it the entry point of the program so
+the program run faster than if the main is not static
+if not we have to instantiate the class where the main method is .
+so this process takes much more time.
+
 Which class is the superclass of all classes?
+A.
+*java.lang.Object
+
 What is difference between path and classpath variables?
+A.
+
 What is the difference between an Interface and Abstract class?
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
 what is Access Specifier?
