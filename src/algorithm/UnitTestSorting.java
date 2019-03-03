@@ -9,7 +9,7 @@ public class UnitTestSorting {
      */
     public static void main(String[] args) {
         int [] unSortedArray = {6,9,2,5,1,0,4};
-        int [] sortedArray =   {0,1,2,4,5,6,9,5};
+        int [] sortedArray =   {0,1,2,4,5,6,9,};
         //Create Sort object
         Sort sort = new Sort();
 
@@ -36,6 +36,23 @@ public class UnitTestSorting {
             ex.getMessage();
         }
 
+        //apply unsorted array to bubbleSort
+        sort.bubbleSort(unSortedArray);
+        //verify if the unsortedArray is sorted by the bubble sort algorithm
+        try{
+            Assert.assertEquals(sortedArray,unSortedArray,"Array is not Sorted");
+        }catch ( Exception ex){
+            ex.getMessage();
+        }
+
+        //apply unsorted array to shellSort
+        sort.shellSort(unSortedArray);
+        //verify if the unsortedArray is sorted by the shell sort algorithm
+        try{
+            Assert.assertEquals(sortedArray,unSortedArray,"Array is not Sorted");
+        }catch ( Exception ex){
+            ex.getMessage();
+        }
 
 
     }

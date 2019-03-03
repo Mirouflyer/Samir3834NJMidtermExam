@@ -127,12 +127,11 @@ public class Sort {
         int [] list = array;
         int h = 1;
         while (h <= array.length / 3) {
-            h = 3 * h + 1; // h is equal to highest sequence of h<=length/3
-            // (1,4,13,40...)
+            h = 3 * h + 1; //
         }
 
-        // next part
-        while (h > 0) { // for array of length 10, h=4
+
+        while (h > 0) {
 
             // This step is similar to insertion sort below
             for (int i = 0; i < array.length; i++) {
