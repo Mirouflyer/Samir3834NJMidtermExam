@@ -11,24 +11,23 @@ public class Palindrome {
 
 
 
+    }
+    public void palindrome() {
         Scanner input = new Scanner(System.in);
         System.out.println("Please Enter a Word :");
         String word = input.nextLine();
-        word=word.toLowerCase();
-
+        word = word.toLowerCase();
 
 
         String reverse = "";
 
-        for(int i = word.length() - 1; i >= 0; i--)
-        {
-             reverse = reverse + word.charAt(i);
+        for (int i = word.length() - 1; i >= 0; i--) {
+            reverse = reverse + word.charAt(i);
         }
 
-        if(word.equals(reverse)){
+        if (word.equals(reverse)) {
             System.out.println("This word is a Palindrome");
-        }else
+        } else
             System.out.println("This word is not a palindrome");
-
     }
 }
