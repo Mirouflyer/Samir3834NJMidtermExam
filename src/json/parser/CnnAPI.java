@@ -12,7 +12,9 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class CnnAPI {
     /*
@@ -55,8 +57,7 @@ public class CnnAPI {
 
     public static void main(String[] args) throws MalformedURLException, IOException {
         String sURL="https://newsapi.org/v2/top-headlines?sources=cnn&apiKey=e7bbf5ad30f941fdbedc7301b8c8fba6";
-        NewsDataModel newModel = null;
-        List<NewsDataModel> news = new ArrayList<>();
+        Map<String,JsonElement> map = new HashMap<>();
         URL url = new URL(sURL);
         URLConnection request = url.openConnection();
         request.connect();
@@ -66,6 +67,15 @@ public class CnnAPI {
 
         if (root instanceof JsonObject) {
             JsonObject rootObj = root.getAsJsonObject();
+
+            for (Map.Entry<String, JsonElement> entry : rootObj.entrySet())
+            {
+
+                System.out.println(entry.getKey()+" "+ entry.getValue());
+            }
+
+
+
         } else if (root instanceof JsonArray) {
             jsonArray = root.getAsJsonArray();
         }
