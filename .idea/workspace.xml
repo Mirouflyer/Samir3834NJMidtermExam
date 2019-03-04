@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf125068-80bd-41d7-926e-f856450ecbd3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/string/problems/Anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/problems/Anagram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/problems/DetermineLargestWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/problems/DetermineLargestWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/problems/DuplicateWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/problems/DuplicateWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/problems/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/problems/Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/string/problems/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/problems/Permutation.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,15 +13,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/json/parser/Employee.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/json/parser/JsonReaderUtil.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -155,11 +143,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/string/problems/Palindrome.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
               <caret line="30" column="61" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/string/problems/Permutation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="47" column="44" lean-forward="true" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -213,6 +210,7 @@
         <option value="$PROJECT_DIR$/src/string/problems/DuplicateWord.java" />
         <option value="$PROJECT_DIR$/src/string/problems/DetermineLargestWord.java" />
         <option value="$PROJECT_DIR$/src/string/problems/Palindrome.java" />
+        <option value="$PROJECT_DIR$/src/string/problems/Permutation.java" />
       </list>
     </option>
   </component>
@@ -255,7 +253,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551660623272" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551663433660" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -278,7 +276,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Palindrome">
+  <component name="RunManager" selected="Application.Permutation">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -327,13 +325,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonReaderUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="json.parser.JsonReaderUtil" />
+    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.problems.Palindrome" />
       <module name="CodingExamJanuary2019" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="json.parser.*" />
+          <option name="PATTERN" value="string.problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -341,8 +339,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.problems.Palindrome" />
+    <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.problems.Permutation" />
       <module name="CodingExamJanuary2019" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -386,19 +384,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.JsonReaderUtil" />
       <item itemvalue="Application.Anagram" />
       <item itemvalue="Application.DuplicateWord" />
       <item itemvalue="Application.DetermineLargestWord" />
       <item itemvalue="Application.Palindrome" />
+      <item itemvalue="Application.Permutation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Permutation" />
         <item itemvalue="Application.Palindrome" />
         <item itemvalue="Application.DetermineLargestWord" />
         <item itemvalue="Application.DuplicateWord" />
         <item itemvalue="Application.Anagram" />
-        <item itemvalue="Application.JsonReaderUtil" />
       </list>
     </recent_temporary>
   </component>
@@ -482,10 +480,10 @@
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/string/problems/Palindrome.java</url>
-          <line>14</line>
+          <url>file://$PROJECT_DIR$/src/string/problems/Permutation.java</url>
+          <line>21</line>
           <properties />
-          <option name="timeStamp" value="20" />
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -872,6 +870,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="61" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/string/problems/Permutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="47" column="44" lean-forward="true" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
         </state>
       </provider>
     </entry>
