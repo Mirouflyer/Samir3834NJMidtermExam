@@ -13,9 +13,7 @@ public class Trainee implements Comparable<Trainee> {
         this.lastName = lastName;
         this.numberOfExercisesSolved = numberOfExercisesSolved;
     }
-    public Trainee(int numberOfExercisesSolved){
-        this.numberOfExercisesSolved=numberOfExercisesSolved;
-    }
+
 
     public String getFirstName() {
         return firstName;
