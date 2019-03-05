@@ -13,28 +13,29 @@ public class Factorial {
          */
 
 
-        int n, fact = 1;
-        int factorialNumber = 5;
 
-        for (n = 1; n <= factorialNumber; n++) {
-            fact = fact * n;
-
-        }
-        System.out.println("The factorial of " + factorialNumber + " is " + fact);
-
-
-
-
+    Factorial fact = new Factorial();
+    fact.factorial(6);
 
 
     }
 
 
+    public  int factorial(int factorialNumber) {
 
 
+    int n, fact = 1;
 
 
+        for(n =1;n <=factorialNumber;n++)
 
+    {
+        fact = fact * n;
+
+    }
+        System.out.println("The factorial of "+factorialNumber +" is "+fact);
+     return factorialNumber;
+}
 
 
 
