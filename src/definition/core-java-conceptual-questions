@@ -95,22 +95,77 @@ of the java development kit.
 
 Does java support multiple inheritance, explain why or why not?
 A.
-*No ,
+*No ,i order to avoid the ambiguity.
+
 What is method overloading and when it happens?
+A-
+*overloading a methods allows different methods to have same name,
+ but different signatures where signature can differ by number of input parameters
+ or type of input parameters or both.
+
 Explain exceptions in java and how to handle it.
+A.
+
 What is static keyword in java? How it has been used in variables and methods ?
+A.
+*static keyword in java is a non access modifier
+
+*The static variable gets memory only once in the class area at the time of class loading.
+*The static method can be invoked without the need for creating an instance of a class.
+
+
+
 What is final and how it has been used variables and methods?
+A.
+*final is non access specifier that is used  with the variables , methods and classes.
+*when it is used with variable , this variable is constant.
+*When it used with method, the method can't be overriding.
+
 What is final, finally and finalize?
+
 What is a constructor ?
+A.
+*A constructor in Java is a block of code similar to a method that's called when an instance of an object is created.
+
+
 Can we have multiple constructors in a class?
+A.
+*Yes.
+
 If we don't have a constructor declared, what is called during the object creation?
+A.
+*Default constructor.
+
 What is "this" keyword in java ?
+A.
+*this key word is a reference variable that refers to the current object.
+
 What is "super" keyword in java? How many possible way can you use?
+A.
+*The super keyword in java is a reference variable that is used to refer parent class objects.
+*1.super can be used to refer immediate parent class instance variable.
+ 2.super can be used to invoke immediate parent class method.
+ 3.super() can be used to invoke immediate parent class constructor.
+
 What is JVM stand for ?
+A.
+*JVM stands for Java Virtual Machine.
+
 Is JVM platform independent?
+A.
+*Yes.
+
 What version of java are you using?
+A.
+*Java(TM) SE Runtime Environment (build 1.8.0_201-b09)
+
 What is JAR stand for ?
+A.
+*JAR stands for Java archive.
+
 What is the difference between JDK and JVM?
+A.
+*
 What is the difference between JVM and JRE?
 What is compile time and run time?
 What is heap?
