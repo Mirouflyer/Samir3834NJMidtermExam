@@ -1,5 +1,11 @@
 package math.problems;
 
+import databases.ConnectToSqlDB;
+
+import java.util.List;
+
+import static java.lang.Integer.MAX_VALUE;
+
 public class PrimeNumber {
 
 	public static void main(String[] args) {
@@ -13,20 +19,24 @@ public class PrimeNumber {
 		 *
 		 */
 
-
 		int counter = 0;
-		int upToNumber = 100000;
+		int upToNumber = 1000000;
+
+
+
 		int[] primeArray = new int [counter];
 		for (int i = 2; i < upToNumber; i++) {
 			if (i == 2) {
 				System.out.print(i+",");
-				int a = i;
+
+
+
 				counter++;
 			} else {
 				if (isPrime(i)) {
 					System.out.print(i+",");
-					int a =i;
 					counter++;
+
 				}
 			}
 		}
@@ -34,6 +44,15 @@ public class PrimeNumber {
 		System.out.println("Total prime numbers as of " + upToNumber + " is " + counter);
 
 
+
+
+//		ConnectToSqlDB connectToSqlDB = new ConnectToSqlDB();
+//		connectToSqlDB.insertDataFromArrayToSqlTable(primeNumber,"PrimeNumber","Numbers");
+//		try {
+//			List<String> list = connectToSqlDB.readDataBase("PrimeNumber","Numbers");
+//		} catch (Exception e) {
+//			e.printStackTrace();
+//		}
 
 
 	}

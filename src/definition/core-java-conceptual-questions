@@ -165,35 +165,136 @@ A.
 
 What is the difference between JDK and JVM?
 A.
-*
+*JVM is included in JDK.
+JDK = JRE+Development tool
+
 What is the difference between JVM and JRE?
+A.
+*JVM is included in JRE
+*JRE = JVM+Library classes
+
 What is compile time and run time?
+A.
+*compile time is Early binding
+*run time is Late binding .
+
 What is heap?
+A.
+*The heap is a memory segment that is used for dynamic allocations,
+
 How java manage it's memory?
+A.
+*the memory in java is divided in three segment , the code segment ,the stack and heap
+*the primitive variable and the reference variable in the stack .
+*in the heap we store the class instances and arrays.
+
 What is the difference between String, StringBuffer and StringBuilder?
+A.
+*
+
 What is Singleton class?
+A.
+*
+
 What is Serialization and Deserialization?
+A.
+*
+
 when to use transient variable in java?
+A.
+*
+
 Difference between while and do..while loop?
+A.
+*in the while loop we check the condition than we execute the statements.
+*in the do while loop execute once before checking condition.
+
 What is Enum?
+A.
+*
+
 What is Iterator?
+A.
+*
+
 Which one will take more memory, an int or Integer?
+A.
+*
+
 Why is String Immutable in Java?
+A.
+*
+
 What is constructor chaining in Java?
+A.
+*
+
 The difference between Serial and Parallel Garbage Collector?
+A.
+*
+
 What is JIT stands for?
+A.
+*JIT stands for Just In Time .
+
 Explain Java Heap space and Garbage collection?
+A.
+*
+
 Can you guarantee the garbage collection process?
+A.
+*
+
 What is the difference between stack and heap in Java?
+A.
+*
+
 What is reflection in java and why is it useful?
+A.
+*
 what is multithreading in java?
+A.
+*
+
 What is the use of synchronization in Java?
+A.
+*Synchronized blocks in Java are marked with the synchronized keyword.
+A synchronized block in Java is synchronized on some object.
+All synchronized blocks synchronized on the same object can only have one thread executing inside them at a time.
+
 What is Framework?
+A.
+*A framework, or software framework, is a platform for developing software applications.
+It provides a foundation on which software developers can build programs for a specific platform.
+
 What are the testing Framework available in java?
+A.
+*Junit
+*TestNJ
+
 Difference between jUnit and testNG?
+A.
+*they have a difference in  parameterized test(they define the parameter value)
+ and dependency test
+
 What are the dependencies for this project?
+A.
+*gson-2.6.2.jar
+*java-json.jar
+*javax.json-1.0.jar
+*mongo-java-driver-3.4.0.jar
+*mysql-connector-java-5.1.41-bin.jar
+*testng-6.8.7.jar
+*mysql-connector-java-8.0.14.jar
+
 what is dependency injection in java?
+A.
+*make a path for the imported library.
+
 What is static binding and dynamic binding?
+A.
+*static binding is the compile time
+*dynamic binding is the run time
 
 
 

@@ -21,6 +21,9 @@ public class UseQueue {
 		tools.add("Wrench");
 		tools.add("Meter");
 		tools.add("Pliers");
+		tools.add("brakes");
+		tools.remove("brakes");
+
 
 
 
@@ -31,7 +34,15 @@ public class UseQueue {
 			System.out.println(out);
 		}
 
+		System.out.println();
 
+		System.out.println(tools.peek());
+
+		System.out.println();
+        Iterator<String> itr = tools.iterator();
+		while(itr.hasNext()){
+			System.out.println(itr.next());
+		}
 
 
 	}

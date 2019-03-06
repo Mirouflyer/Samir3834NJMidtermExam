@@ -20,6 +20,9 @@ public class UseArrayList {
 		car.add("MERCEDES SLR");
 		car.add("BUGATTI VERON");
 		car.add("MCLAREN MP12");
+		car.remove("BUGATTI VERON");
+		car.add("Nissan GTR");
+
 
 
         //retrieving data using for each loop

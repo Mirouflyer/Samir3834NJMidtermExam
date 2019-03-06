@@ -32,9 +32,9 @@ public class LowestNumber {
 		ConnectToSqlDB connectToSqlDB = new ConnectToSqlDB();
 		List<String> lowestValue = new ArrayList<String>();
 		try {
-			connectToSqlDB.insertDataFromArrayToSqlTable(array, "lowestNumber","lowestNumber");
+			connectToSqlDB.insertDataFromArrayToSqlTable(array, "lowestNumber","Numbers");
 
-			lowestValue = connectToSqlDB.readDataBase("lowestNumber", "lowestNumber");
+			lowestValue = connectToSqlDB.readDataBase("lowestNumber", "Numbers");
 
 		} catch (Exception e) {
 			e.printStackTrace();
