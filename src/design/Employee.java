@@ -13,7 +13,11 @@ public interface Employee {
 	
 	//employeeName() will return employee name
 	public String employeeName();
-	
+
+	int employeeId(int emploeeId);
+
+	String employeeName(String employeeName);
+
 	//assignDepartment() will assign employee to departments
     public void assignDepartment();
 	

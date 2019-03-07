@@ -258,7 +258,9 @@ A.
 
 What is the use of synchronization in Java?
 A.
-*
+*Synchronized blocks in Java are marked with the synchronized keyword.
+A synchronized block in Java is synchronized on some object.
+All synchronized blocks synchronized on the same object can only have one thread executing inside them at a time.
 
 What is Framework?
 A.

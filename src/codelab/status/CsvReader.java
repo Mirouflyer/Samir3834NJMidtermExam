@@ -63,7 +63,7 @@ public class CsvReader {
             }
         }
 
-        int count =0;
+
         int a =0;
         double ave =0;
         for(Trainee data: roster){
@@ -71,12 +71,12 @@ public class CsvReader {
            int  grade = data.getNumberOfExercisesSolved();
            a+=grade;
 
-            count++;
+
 
          }
-        System.out.println("Number of student of the class are: "+count);
+        System.out.println("Number of student of the class are: "+roster.size());
         System.out.println("The total score of the class are "+a);
-        System.out.println("The Average score of the class is :" +a/count);
+        System.out.println("The Average score of the class is :" +a/roster.size());
 
 
 

@@ -55,5 +55,14 @@ public class UnitTestSorting {
         }
 
 
+        //apply unsorted array to mergeSort
+        sort.mergesort(unSortedArray);
+        //verify if the unsortedArray is sorted by the merge sort algorithm
+        try{
+            Assert.assertEquals(sortedArray,unSortedArray,"Array is not Sorted");
+        }catch ( Exception ex){
+            ex.getMessage();
+        }
+
     }
 }

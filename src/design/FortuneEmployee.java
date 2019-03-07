@@ -14,7 +14,9 @@ public class FortuneEmployee {
 	 *
 	 **/
 	public static void main(String[] args) {
-		
+
+		System.out.println("     Fortune 500 Empoyee Information     ");
+		System.out.println("*****************************************");
 
 
 	}
