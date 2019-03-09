@@ -75,7 +75,6 @@ public class CnnAPI {
             }
 
 
-
         } else if (root instanceof JsonArray) {
             jsonArray = root.getAsJsonArray();
         }

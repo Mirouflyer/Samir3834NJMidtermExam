@@ -61,7 +61,7 @@ public class Sort {
         this.executionTime = executionTime;
         return list;
     }
-     //*********************************************************
+     //*********************************************************************
     //bubbleSort Algorithm
 
     public int[] bubbleSort(int [] array){
@@ -85,6 +85,9 @@ public class Sort {
     }
     
 
+
+  //*********************************************************************
+  //MergeSort Algorithm
 
 
         public  void mergesort(int[] input) {

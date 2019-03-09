@@ -60,10 +60,14 @@ A.
 
 What is difference between path and classpath variables?
 A.
+*Path is an environment variable which is used by the operating system to find the executables.
+*Classpath is an environment variable which is used by the Java compiler to find the path
 
 What is the difference between an Interface and Abstract class?
 A.
-*
+*Main difference is methods of a Java interface are implicitly abstract and cannot have implementations.
+ A Java abstract class can have instance methods that implements a default behavior
+
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
 A.
 *No we can't ,we need to implement the interface and extends the abstract class.
@@ -85,7 +89,9 @@ A.
 
 What is Java Package and which package is imported by default?
 A.
-*
+*Package in Java is a mechanism to encapsulate a group of classes, sub packages and interfaces.
+*the package with no name. Second, the java.lang package.
+And third, the current package (the package in which the current file is defined).
 
 What is API? Name list of API that you have used so far.
 A.
